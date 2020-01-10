@@ -7,8 +7,7 @@
   }
 }
 .jumbotron-fluid {
-  background: url("https://pixabay.com/get/5fe2d04b4a54b108feda8460825668204022dfe0545974487d2978d1/office-925806_1920.jpg")
-    no-repeat center center fixed;
+  background: url("./images/desk.jpg") no-repeat center center fixed;
   background-size: cover;
   height: 80vh;
   width: 100%;
