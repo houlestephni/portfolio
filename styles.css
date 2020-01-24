@@ -13,7 +13,13 @@
   width: 100%;
 }
 .display-3 {
+  color: black;
+  opacity: 1;
   font-weight: 700;
+  font-size: 5rem;
+}
+#jumbo-text {
+  color: black;
 }
 .nav-link {
   color: black;

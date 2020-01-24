@@ -4,6 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/images/programming.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/programming.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/images/programming.png"
+    />
+    <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
@@ -17,7 +34,7 @@
     <header>
         <nav class="navbar navbar-light bg-light">
             <a class="navbar-brand" href="#">
-                <img src="/images/programming.png" width="30" height="30" class="d-inline-block align-top" alt="programming on monitor"> 
+                <img src="/images/programming.png" width="30" height="30" class="d-inline-block align-top" alt="code on monitor"> 
                 Stephni Houle
               </a>
         <ul class="nav justify-content-end">
@@ -43,12 +60,13 @@
    
     </header>
    
-      <div class="jumbotron jumbotron-fluid">
+      <div class="jumbotron jumbotron-fluid" style="background-image: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.4) 100%), url(./images/desk.jpg)">
         <div class="container">
-          <h1 class="display-3">Hello, World!</h1>
-        
+          <div id="jumbo-text">
+          <h1 class="display-3" >Hello, World!</h1>
+      
           <h2>I'm Stephni,</h2>
-<h2>Software Engineer</h2>
+<h2>Software Engineer</h2></div>
          <br>
           <a class="btn btn-outline-dark btn-lg" href="#about" role="button">About Me</a>
         </div>
@@ -60,8 +78,8 @@
         <section id="about" ><h1 class="text-center">About Me</h1>
           <br>
           <div class="clearfix">
-            <img class="float-right rounded-circle img-fluid" style="width: 20rem; padding: 0 1.5rem "src="/images/headshot.jpg" alt="Headshot">
-          <p style="font-size: 1.5em ; ">My name is Stephni Houle, I'm a software engineer, with experience developing full stack applications. I have a passion for creating and I enjoy focusing on clean, functional design.  I have built applications with various technoglogy including Javascript, jQuery, React, Rails, MongoDB, and PostreSQL. 
+            <img class="float-right rounded-circle img-fluid" style="width: 20rem; padding: 0 1.5rem" src="/images/headshot.jpg" alt="Headshot">
+          <p style="font-size: 1.5em ;">My name is Stephni Houle, I'm a software engineer, with experience developing full stack applications. I have a passion for creating and I enjoy focusing on clean, functional design.  I have built applications with various technoglogy including Javascript, jQuery, React, Rails, MongoDB, and PostreSQL. 
           
           Check out some of my work below. </p>
         
@@ -82,7 +100,7 @@
   <div class="card mx-auto col-lg-10" style=" background-color: #eee" id="projects">
             <div class="row no-gutters">
               <div class="col-md-4">
-                <img src="https://user-images.githubusercontent.com/53283802/68677378-05113300-052a-11ea-9a46-ee1725a68d2c.png" class="card-img" alt="wander travel homepage">
+                <a target="_blank" href="https://wandertravel.herokuapp.com"><img src="https://user-images.githubusercontent.com/53283802/73034505-1e303d00-3e13-11ea-88c1-ff8005e3592a.png" class="card-img" alt="wander travel homepage"></a>
               </div>
               <div class="col-md-8">
                 <div class="card-body">
@@ -103,7 +121,7 @@
               <div class="card mx-auto col-lg-10" style="background-color: #eee;">
                 <div class="row no-gutters">
                   <div class="col-md-4">
-                    <img src="https://user-images.githubusercontent.com/53283802/71259619-d7789000-2306-11ea-9276-da6bbe3a3d42.png" class="card-img" alt="Alpaca My Bag Homepage">
+                    <a target="_blank" href="https://alpacabag.surge.sh/"><img src="https://user-images.githubusercontent.com/53283802/73035007-aebb4d00-3e14-11ea-95f3-6192774d932b.png" class="card-img" alt="Alpaca My Bag Homepage"></a>
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
@@ -124,7 +142,8 @@
               <div class="card mx-auto col-lg-10" style="background-color: #eee;">
                 <div class="row no-gutters">
                   <div class="col-md-4">
-                    <img src="https://user-images.githubusercontent.com/53283802/67394788-cdd6e400-f572-11e9-961f-f25a74a1e1ac.png" class="card-img" alt="bestselling books">
+                    <a target="_blank" href="http://bestsellingbooks.surge.sh/">
+                    <img src="https://user-images.githubusercontent.com/53283802/73033723-df998300-3e10-11ea-8e80-5352647b59c2.png" class="card-img" alt="bestselling books"></atarget="_blank" href="http://bestsellingbooks.surge.sh/">
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
