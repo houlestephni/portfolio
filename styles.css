@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .card-columns {
   @include media-breakpoint-only(lg) {
     column-count: 4;
@@ -17,9 +20,6 @@
   opacity: 1;
   font-weight: 700;
   font-size: 5rem;
-}
-#jumbo-text {
-  color: black;
 }
 .nav-link {
   color: black;
